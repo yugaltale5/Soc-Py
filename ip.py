@@ -1,3 +1,4 @@
 import socket
-ip=socket.gethostbyname('www.google.com')
+ip=socket.gethostbyname('www.gmail.com')
+print("IP address of gmail is :)
 print ip
