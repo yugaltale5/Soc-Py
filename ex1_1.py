@@ -10,4 +10,4 @@ chunk=s.recv(16384)
 chunks.append(chunk)
 s.close()
 response = "".join(chunks)
-print response
+print (response)
