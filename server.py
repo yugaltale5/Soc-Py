@@ -9,6 +9,6 @@ s.listen(5)
 print "Socket is listening"
 while True:
     c,addr = s.accept()
-print "Got connected from",addr
+print "Get connected from",addr
 c.send('Thank u for connecting')
 c.close()
