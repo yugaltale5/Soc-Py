@@ -11,3 +11,4 @@ print("Client Side")
 print ("conected to server on port side %s" % port)
 print s.recv(12345)
 s.close()
+#client 
