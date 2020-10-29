@@ -8,3 +8,4 @@ while True:
  print "Received connection from", a
  c.send("Glad u connected! %s\n" % a[0])
  c.close()
+#socket programming
