@@ -1,6 +1,7 @@
 import ipgetter
 import requests
-import GeoIP
+#sudo pip3 install geoip
+import GeoIP  
 IP = ipgetter.myip()
 url = 'http://freegeoip.net/json/'+IP
 r = requests.get(url)
